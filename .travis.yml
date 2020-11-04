@@ -25,7 +25,6 @@ before_deploy:
   - cd ../ && mkdir -p deploy
   - mv before-deploy/before-deploy.zip deploy/springboot-tutorial.zip
 
-
 # AWS
 deploy:
   - provider: s3
